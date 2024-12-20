@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beatrice Chepkemoi - Profile</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Beatrice Chepkemoi</h1>
+      <p>BSc in Information Technology | Hiking Enthusiast</p>
+    </header>
+
+    <main>
+      <section id="bio">
+        <h2>About Me</h2>
+        <img src="./profile.jpg" alt="Beatrice Chepkemoi" class="profile-img" />
+        <p>
+          Hello! I'm Beatrice Chepkemoi, a student pursuing a Bachelor of
+          Science in Information Technology. I love exploring nature and going
+          on hiking adventures.
+        </p>
+        <button id="read-more-btn">Read More</button>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>Web Development</li>
+          <li>Programming(Html, JavaScript)</li>
+          <li>Database Management</li>
+          <li>Networking</li>
+        </ul>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <ol>
+          <li>
+            <strong>Hiking Journal</strong> A web app to log hiking adventures.
+          </li>
+          <li>
+            <strong>Student Portal</strong> A portal for managing student
+            records.
+          </li>
+        </ol>
+      </section>
+
+      <section id="newsletter">
+        <h2>Subscribe to My Newsletter</h2>
+        <form id="newsletter-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <button type="submit">Subscribe</button>
+        </form>
+        <p id="form-error" class="error-message"></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Beatrice Chepkemoi</p>
+    </footer>
+  </body>
+</html>
